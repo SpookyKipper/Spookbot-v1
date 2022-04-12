@@ -1,12 +1,30 @@
-[![Discord](https://discordapp.com/api/guilds/117523346618318850/widget.png)](https://discord.gg/nadekobot)
-[![Documentation Status](https://readthedocs.org/projects/nadekobot/badge/?version=latest)](http://nadekobot.readthedocs.io/en/latest/?badge=latest)
-[![Discord Bots](https://discordbots.org/api/widget/status/116275390695079945.svg)](https://discordbots.org/bot/116275390695079945)
-[![nadeko0](https://cdn.discordapp.com/attachments/266240393639755778/281920716809699328/part1.png)](https://nadekobot.me)
-[![nadeko1](https://cdn.discordapp.com/attachments/266240393639755778/281920134967328768/part2.png)](https://discordapp.com/oauth2/authorize?client_id=170254782546575360&scope=bot&permissions=66186303)
-[![nadeko2](https://cdn.discordapp.com/attachments/266240393639755778/281920161311883264/part3.png)](https://nadekobot.me/commands)
+# NOTE: SPOOKBOT IS NOW ON A FULL RE-CODE FOR V2, IT'S NOT USING THIS CODE NOW. IT'S ONLY A NADEKO FORK ANYWAYS.
 
-## For Updates, Help and Guidelines
+# Spookbot v1 Source Code
 
-| [![discord](https://cdn.discordapp.com/attachments/266240393639755778/281920766490968064/discord.png)](https://discord.gg/nadekobot) | [![Wiki](https://cdn.discordapp.com/attachments/266240393639755778/281920793330581506/datcord.png)](http://nadekobot.readthedocs.io/en/latest/)
-| --- | --- |
-| **Join my Discord server for help.** | **Read the Docs for self-hosting.** |
+
+- This repository is only here for archival purposes.
+
+- The public instance of Spookbot is not using this code. The new version is closed-source (until we releases v3) - you can't host it yourself right now.
+
+
+# Self-Hosting
+I recommended you to follow the [Nadeko Bot Guidelines](https://nadekobot.readthedocs.io/en/v4/) and use their instance for the newest updated features.
+Nadeko was currently in v4, while Spookbot uses Nadeko v2.35 Fork.
+
+<h2>If you REALLY want to self host Spookbot, here are the steps.</h2>
+Note: Spookbot was hosted on Linux. It will not work on Windows or other OS.<br>
+<strong>I will not provide any support on self-hosting it, you are on <i>your</i> own when any problems are occurred.</strong>
+<br><br>
+
+1. Install NadekoBot's prerequisites.
+   - Execute `cd ~ && wget -N https://gitlab.com/Kwoth/nadeko-bash-installer/-/raw/v4/linuxAIO.sh && bash linuxAIO.sh`
+   - type `1` and press `enter`
+   - Exit.
+2. Head to `src/NadekoBot`
+3. Open `credentials.json` and fill in your Bot Token and Your User ID in the `Token` and `OwnerIds` Field.
+4. Fill in the other details if you want to unlock advanced features.
+5. Starting the bot
+   - cd into the folder: `cd src/NadekoBot`
+   - do `sudo dotnet run -c release`
+
